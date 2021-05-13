@@ -1,0 +1,121 @@
+.whitestripcontainer
+{
+    background:#FFFFFF;
+}
+
+#navbarNavDropdown > ul > li > a{ color: #2D4159;}
+
+.titlealign span{color: #0677A1 !important;}
+
+.btn-primary{background:#0677A1 !important;}
+
+.slider{background:#571535;}
+
+.sitetitle-social h1{color: white;}
+
+.header{background:#79244D;}
+
+
+
+#rightskew {
+    width: 300px;
+    height: 148px;
+    background: rgb(67,81,132);
+    background: linear-gradient(90deg, rgba(121,36,77,0) 0%, rgba(168,50,94,1) 100%);
+    transform: skew(30deg,0deg); /* Standard syntax */
+    position: absolute;
+    top:0;
+    right:220px;
+    }
+  
+  
+    #leftskew
+    {
+      width: 300px;
+      height: 148px;
+      background: rgb(67,81,132);
+      background: linear-gradient(90deg, rgba(121,36,77,0) 0%, rgba(168,50,94,1) 100%);
+      transform: skew(30deg,0deg); /* Standard syntax */
+      position: absolute;
+      top:0;
+      left:-300px;
+    }
+
+
+
+    .departmentform
+{
+
+    background:rgba(14,108,147,1) url(../images/right-skew-box-purple.svg) no-repeat right center;
+  
+}
+
+
+.department-content > select {
+    background: white;
+    color: black;
+}
+
+
+.board-of-directors
+{
+    background: #79244D;
+}
+
+
+.announcement > h2
+{
+   background:url(../images/news-heading-bg-purple-comb.svg) no-repeat center top;
+}
+
+
+.announcement {
+    
+    border-top: 20px solid #2D4159;
+}
+
+
+.announcement .all-news > li .newsdate
+{
+    background:#79244D;
+}
+
+
+.btn-secondary
+{
+        background:#17242A !important;
+}
+
+
+.allquicklinks
+{
+    background:#79244D;
+}
+
+.allquicklinks h4
+{
+    color: #DEF2F1;
+}
+
+.footer
+{
+background: #17242A;
+}
+
+.footer .newsletterform
+{
+    background: #5E2444;
+}
+
+.last-footer{background: #79244D;}
+
+
+.internal-quicklinks
+{
+    background: #59253B;
+}
+
+.internal-quicklinks h4
+{
+    background:#106A8F;
+}

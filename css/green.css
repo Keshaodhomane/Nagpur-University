@@ -117,3 +117,8 @@ background: #17242A;
 {
     background:#2B7A77;
 }
+
+.sitetitle-social .language1, .sitetitle-social .language1 a
+{
+    color: #000;
+}

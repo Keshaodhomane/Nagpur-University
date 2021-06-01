@@ -295,7 +295,7 @@ p {
     font-size: 20px;
     color: #0C194C;
     line-height: 60px;
-    padding: 0 20px;
+    padding: 0 15px;
     -webkit-transition: all, 1s;
     transition: all, 1s;
   }
@@ -557,8 +557,9 @@ p {
 
 .department-content .smalllinks > a {
   color: white;
-  margin-right: 30px;
-  font-size: 18px;
+  margin-right: 40px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .department-content .smalllinks > a:hover {
@@ -1049,5 +1050,43 @@ p {
   padding-left: 20px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+}
+
+.linkscontainer1 {
+  background: #202848;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* width */
+.linkscontainer1::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.linkscontainer1::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+.linkscontainer1::-webkit-scrollbar-thumb {
+  background: #F4976C;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.linkscontainer1::-webkit-scrollbar-thumb:hover {
+  background: #325BB1;
+}
+
+.swiper-pagination1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

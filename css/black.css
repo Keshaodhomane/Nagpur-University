@@ -1,17 +1,2 @@
-img {
-	filter: grayscale(1);
-}
-
-
-.logo
-{
-    filter: grayscale(1);
-}
-
-div{filter: grayscale(1); }
-
-
-div:not("blackstrip1") {filter: grayscale(1);}
-
-.blackzindex{position:relative; z-index: 10 !important;}
+html { filter: grayscale(1); }
 

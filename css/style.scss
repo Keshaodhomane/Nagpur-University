@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+*
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 html, body
 {
@@ -216,10 +222,11 @@ $large-laptop:1920px;
  {
      background:$blue2;
      min-height:210px;
-     position: relative;
+     position: absolute;
      width: 100%;  
      @include mobile(){display: none;}
      @include tablet(){display:none;}
+     z-index: 9999;
 }
 
 
@@ -1197,3 +1204,11 @@ ul{
      padding-top:30px;
      
   }
+
+.dropdown-item a, .navbar-nav .dropdown-menu li a
+{
+    text-decoration: none;
+    color: #000;
+    
+}
+

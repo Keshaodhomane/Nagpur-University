@@ -392,18 +392,7 @@ p {
   background: #0C194C;
   position: relative;
   z-index: 1;
-}
-
-@media (max-width: 1366px) {
-  .slider {
-    min-height: 499px;
-  }
-}
-
-@media (max-width: 1920px) {
-  .slider {
-    min-height: 499px;
-  }
+  margin-top: 200px;
 }
 
 .slide {

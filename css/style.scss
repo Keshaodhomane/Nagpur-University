@@ -492,12 +492,15 @@ $large-laptop:1920px;
 
 .slider
 {
+    
     width: 100%;
     background: $blue3;
     position: relative;
     z-index: 1;
-    @include laptop(){min-height: 499px;}
-    @include large-laptop(){min-height: 499px;}
+    margin-top: 200px;
+    
+    
+    
 }
 
 

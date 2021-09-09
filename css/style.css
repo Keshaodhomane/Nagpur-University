@@ -285,6 +285,8 @@ p {
           transform: skew(30deg, 0deg);
   /* Standard syntax */
   border-radius: 10px;
+  position: relative;
+  z-index: 5;
 }
 
 .reveseskew {
@@ -1088,5 +1090,16 @@ p {
 .dropdown-item a, .navbar-nav .dropdown-menu li a {
   text-decoration: none;
   color: #000;
+}
+
+@media (min-width: 1024px) {
+  .about-topmargin {
+    margin-top: 200px;
+  }
+}
+
+.blackmenu {
+  position: relative;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */

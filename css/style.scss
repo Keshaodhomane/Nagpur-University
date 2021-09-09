@@ -362,6 +362,9 @@ $large-laptop:1920px;
        min-height: 60px;          
        transform: skew(30deg,0deg); /* Standard syntax */
        border-radius: 10px;
+       position: relative;
+       z-index: 5;
+
 
     }
 
@@ -1215,3 +1218,17 @@ ul{
     
 }
 
+.about-topmargin
+{
+    @media (min-width:1024px) {
+        margin-top: 200px;
+    }
+    
+}
+
+
+.blackmenu
+{
+    position: relative;
+    z-index: -1;
+}

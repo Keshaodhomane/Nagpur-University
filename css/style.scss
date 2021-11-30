@@ -602,7 +602,7 @@ $large-laptop:1920px;
 .department-content
 {
 display: block;
-padding: 65px 0 20px 65px;
+padding: 40px 0 20px 40px;
 @include mobile(){padding: 30px 20px 20px 20px;}
 @include tablet(){padding: 30px 20px 20px 20px;}
 
@@ -611,19 +611,37 @@ padding: 65px 0 20px 65px;
 
 .smalllinks
 {
-    padding: 20px 0 0 0 ;
+    padding: 0 70px 0 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+    text-align: left;
+   
+& div {
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 
-    & > a
+    &:hover
+    {
+        background: $orange;
+    }
+
+    & a
     {
         color: white;
         margin-right:40px;
-        font-size: 20px;
+        font-size: 16px;
         text-decoration: none;
 
-        &:hover{ color:$orange }
+        &:hover{ color:white }
     }
 }
-
+}
 }
 
 

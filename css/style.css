@@ -519,7 +519,7 @@ p {
 
 .department-content {
   display: block;
-  padding: 65px 0 20px 65px;
+  padding: 40px 0 20px 40px;
 }
 
 @media (max-width: 360px) {
@@ -549,18 +549,39 @@ p {
 }
 
 .department-content .smalllinks {
-  padding: 20px 0 0 0;
+  padding: 0 70px 0 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
+  text-align: left;
 }
 
-.department-content .smalllinks > a {
+.department-content .smalllinks div {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.department-content .smalllinks div:hover {
+  background: #F4976C;
+}
+
+.department-content .smalllinks div a {
   color: white;
   margin-right: 40px;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
-.department-content .smalllinks > a:hover {
-  color: #F4976C;
+.department-content .smalllinks div a:hover {
+  color: white;
 }
 
 .title-with-calender-icon {

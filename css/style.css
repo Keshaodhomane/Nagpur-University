@@ -400,8 +400,8 @@ p {
 .slide {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
   min-height: 499px;
   overflow: hidden;
 }
@@ -462,7 +462,7 @@ p {
 }
 
 .slide .righttext > div > h2 {
-  font-size: 75px;
+  font-size: 60px;
   font-family: "Teko", sans-serif;
   color: white;
   line-height: 60px;
@@ -498,9 +498,7 @@ p {
   background: #435184 url(../images/right-skew-box.svg) no-repeat right center;
   background-size: 630px 250px;
   border-radius: 10px;
-  margin-top: -30px;
-  z-index: 9;
-  position: relative;
+  margin-top: 20px;
 }
 
 @media (max-width: 360px) {
@@ -1122,5 +1120,33 @@ p {
 .blackmenu {
   position: relative;
   z-index: -1;
+}
+
+.mar-top-200 {
+  margin-top: 200px;
+}
+
+.bg-blue {
+  background: #0C194C;
+}
+
+.rightlinks {
+  color: #fff;
+}
+
+.rightlinks ul, .rightlinks li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rightlinks a {
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  text-decoration: none;
+  background: url(../images/icon-small-arrow.svg) no-repeat left 5px;
+  background-size: 15px 12px;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */
